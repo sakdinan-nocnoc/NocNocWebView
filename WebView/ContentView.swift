@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowingWebView: Bool = false
+    // MARK: - Input url
+    private let urlString = "https://qa.nocnoc-internal.com/service-installation?utm_source=nocnoc&utm_medium=appchat&utm_campaign=allservice"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            NavigationLink("Go To Web View") {
+                WebView(urlString: urlString)
+                    .navigationBarTitleDisplayMode(.inline)
+            }.buttonStyle(.borderedProminent)
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationTitle("Home")
+        }
     }
 }
 

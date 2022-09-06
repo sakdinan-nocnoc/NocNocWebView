@@ -11,6 +11,7 @@
 		49BF524928C70A6700D57F18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF524828C70A6700D57F18 /* ContentView.swift */; };
 		49BF524B28C70A6800D57F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF524A28C70A6800D57F18 /* Assets.xcassets */; };
 		49BF524E28C70A6800D57F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF524D28C70A6800D57F18 /* Preview Assets.xcassets */; };
+		49BF525528C70F4D00D57F18 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF525428C70F4D00D57F18 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		49BF524828C70A6700D57F18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49BF524A28C70A6800D57F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49BF524D28C70A6800D57F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49BF525428C70F4D00D57F18 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				49BF524628C70A6700D57F18 /* WebViewApp.swift */,
+				49BF525428C70F4D00D57F18 /* WebView.swift */,
 				49BF524828C70A6700D57F18 /* ContentView.swift */,
 				49BF524A28C70A6800D57F18 /* Assets.xcassets */,
 				49BF524C28C70A6800D57F18 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF525528C70F4D00D57F18 /* WebView.swift in Sources */,
 				49BF524928C70A6700D57F18 /* ContentView.swift in Sources */,
 				49BF524728C70A6700D57F18 /* WebViewApp.swift in Sources */,
 			);
